@@ -10,8 +10,6 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
     // https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients
     implementation group: 'org.apache.kafka', name: 'kafka-clients', version: '2.8.0'
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
